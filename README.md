@@ -6,6 +6,7 @@
  --> We will then Use L2 regularization. Visually plot the weights corresponding to each features so as to knwo how each features is important. Features whose weight's magnitude is very very less drop them, those features are not useful in detection of cancer. There are some gene features only which are useful for cancer detection. Now, store these important features.
  --> Now use PCA on those important features. This increases the model performance. Now visually plot how each PCA contribute. Drop those PCA's whose contribution in capturing the variance of data is very very less. The remaining important PCA's are your now new modified features.
  --> Use Logistic regression for these new modified features. Use 75% samples from each class
+ --> Now, GridSeachCV, class weights = "Balanced" , cross validation. etc. which are useful in tuning the hyperparameters and more things have a look at them also.
 
    
 
